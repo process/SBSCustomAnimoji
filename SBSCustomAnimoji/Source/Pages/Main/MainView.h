@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class AVTPuppetView;
+@class AVTRecordView;
 
 @interface MainView : UIView
-@property (nonatomic, readonly) AVTPuppetView *puppetView;
+@property (nonatomic, readonly) AVTRecordView *puppetView;
 @end

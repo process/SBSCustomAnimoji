@@ -6,7 +6,7 @@
 
 @class AVTAvatarInstance;
 
-@interface AVTPuppet: NSObject
-+ (id)_pathForPuppetNamed:(id)arg1 inAvatarBundle:(bool)arg2;
-+ (id)puppetNamed:(id)arg1 options:(id)arg2;
-@end
+//@interface AVTPuppet: NSObject
+//+ (id)_pathForPuppetNamed:(id)arg1 inAvatarBundle:(bool)arg2;
+//+ (id)puppetNamed:(id)arg1 options:(id)arg2;
+//@end

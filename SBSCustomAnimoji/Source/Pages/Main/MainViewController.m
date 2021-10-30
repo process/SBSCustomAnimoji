@@ -8,9 +8,9 @@
 
 #import "MainViewController.h"
 #import "MainView.h"
-#import "AVTPuppet.h"
-#import "AVTPuppetView.h"
-
+#import "AVTAnimoji.h"
+#import "AVTRecordView.h"
+ 
 @interface MainViewController ()
 @property (nonatomic, readonly) MainView *contentView;
 @end
@@ -42,9 +42,10 @@
 // Pragma mark: - Private
 
 - (void)showPuppetNamed:(NSString *)puppetName {
-    AVTPuppet *puppet = [AVTPuppet puppetNamed:puppetName options:nil];
-    AVTAvatarInstance *avatarInstance = (AVTAvatarInstance *)puppet;
-    [self.contentView.puppetView setAvatarInstance:avatarInstance];
+    //AVTAnimoji *puppet = [AVTAnimoji puppetNamed:puppetName options:nil];
+    AVTAnimoji *puppet = [AVTAnimoji animojiNamed:puppetName];
+    //AVTAvatarInstance *avatarInstance = (AVTAvatarInstance *)puppet;
+    self.contentView.puppetView.avatar = puppet;
 }
 
 @end

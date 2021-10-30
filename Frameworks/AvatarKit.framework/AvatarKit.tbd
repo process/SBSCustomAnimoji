@@ -53,7 +53,7 @@ exports:
                        _PerfTimesCreate, _PerfTimesForEach, _PerfTimesFree, _PerfTimesMax, 
                        _PerfTimesMaxForKind, _PerfTimesMin, _PerfTimesMinForKind, 
                        _PerfTimesNextIndex, _PerfTimesPush, _sharedInstance ]
-    objc-classes:    [ AVTARMaskRenderer, AVTAnimationClip, AVTAnimationExtra, AVTAnimoji, 
+    objc-classes:    [ AVTARMaskRenderer, AVTAnimationClip, AVTAnimationExtra, AVTAnimoji,
                        AVTAsset, AVTAssetInfo, AVTAvatar, AVTAvatarAssetLibrary, 
                        AVTAvatarEnvironment, AVTAvatarPose, AVTAvatarRenderer, AVTAvatarView, 
                        AVTColorDescription, AVTColorPreset, AVTComponent, AVTComponentInstance, 
@@ -62,9 +62,9 @@ exports:
                        AVTMemoji, AVTMemojiSkeleton, AVTMorpherDrivenMaterialDescriptor, 
                        AVTParameterValue, AVTPersonalAnimoji, AVTPhysicalizedMorpherDescriptor, 
                        AVTPhysicsController, AVTPhysicsRig, AVTPreset, AVTPresetDependency, 
-                       AVTPupilReflectionCorrectionDescriptor, AVTPuppet, AVTPuppetView, 
+                       AVTPupilReflectionCorrectionDescriptor, AVTPuppet,
                        AVTRecordView, AVTRenderer, AVTResourceLocator, AVTRig, AVTRigSettings, 
-                       AVTRigValue, AVTSnapshotBuilder, AVTView ]
+                       AVTRigValue, AVTSnapshotBuilder, AVTView, AVTAvatar ]
     objc-ivars:      [ AVTFaceTrackingInfo._arFrame, AVTFaceTrackingInfo._deleteWhenDone, 
                        AVTFaceTrackingInfo._timestamp, AVTFaceTrackingInfo._trackingData, 
                        AVTPreset._assets, AVTPreset._category, AVTPreset._dependencies, 

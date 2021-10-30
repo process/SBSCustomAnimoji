@@ -7,10 +7,10 @@
 //
 
 #import "MainView.h"
-#import "AVTPuppetView.h"
+#import "AVTRecordView.h"
 
 @interface MainView ()
-@property (nonatomic, strong) AVTPuppetView *puppetView;
+@property (nonatomic, strong) AVTRecordView *puppetView;
 @end
 
 @implementation MainView
@@ -25,7 +25,7 @@
 
 - (void)setupView {
     self.backgroundColor = [UIColor whiteColor];
-    self.puppetView = [[AVTPuppetView alloc] init];
+    self.puppetView = [[AVTRecordView alloc] init];
     self.puppetView.translatesAutoresizingMaskIntoConstraints = NO;
     [self addSubview:self.puppetView];
 }
